@@ -1,4 +1,17 @@
-name: My detail
-
+name: My Practice Pipeline 
 on:
-     
+  push:
+    branches: [main]
+
+jobs:
+  job-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my name
+        run:  echo "kalpana"
+      - name: date
+        run: date
+      - name: deployment status
+        run: echo "Deployment successful"
+
+      
