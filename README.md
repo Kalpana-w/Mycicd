@@ -1,1 +1,3 @@
-Testing PR pipeline - feature branch change
+Testing PR pipeline 
+
+With checkout and feature/test-pr branch
